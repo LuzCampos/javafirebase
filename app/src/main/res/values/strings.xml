@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginEjemploAuth</string>
+    <string name="_3_892_13">389213</string>
+    <string name="assets">assets</string>
+    <string name="usd">usd</string>
+    <string name="expense">expense</string>
+    <string name="_321_42">32142</string>
+    <string name="main_income">main income</string>
+    <string name="_994_10">99410</string>
+    <string name="savings">savings</string>
+    <string name="_192_42">19242</string>
+    <string name="eur">eur</string>
+    <string name="sasuke_uchiha">sasukeuchiha</string>
+    <string name="mi_cartera" >Bienvenido</string>
+</resources>

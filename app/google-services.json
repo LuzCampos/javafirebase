@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1035741801899",
+    "project_id": "loginejemploauth",
+    "storage_bucket": "loginejemploauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035741801899:android:6af55ec410404643fb36ee",
+        "android_client_info": {
+          "package_name": "com.cursodekotlin.loginejemploauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035741801899-hun2v99or1ufmre0d68n2mri8ndgmfgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursodekotlin.loginejemploauth",
+            "certificate_hash": "7ea25ed332bea6e3d8d6d75a966f213dce2e5af0"
+          }
+        },
+        {
+          "client_id": "1035741801899-otvqhi26a5pljsj455bq65u1lem5qsb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj4Z2QjGMpDKhDn-t1dVbdQDvT6AuQmV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035741801899-otvqhi26a5pljsj455bq65u1lem5qsb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
