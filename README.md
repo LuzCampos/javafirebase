@@ -1,4 +1,4 @@
 ## Java login firebase
 
-<img src="screens/screen_login" width="367">
+<img src="screens/screen_login.png" width="367">
 
