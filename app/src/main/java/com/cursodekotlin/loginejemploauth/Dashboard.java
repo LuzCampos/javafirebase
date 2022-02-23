@@ -1,6 +1,7 @@
 package com.cursodekotlin.loginejemploauth;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class Dashboard extends AppCompatActivity {
 
 
-    private FloatingActionButton btnSalir;
+    private CardView btnSalir;
 
     private TextView txtUser;
 
@@ -25,7 +26,7 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
 
-        //btnSalir = findViewById(R.id.exitBtn);
+        btnSalir = findViewById(R.id.exitBtn);
         //txtUser =  findViewById(R.id.textUserName);
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser mUser = mAuth.getCurrentUser();
@@ -36,12 +37,12 @@ public class Dashboard extends AppCompatActivity {
      //       txtUser.setText(name);
         }
 
-      /* btnSalir.setOnClickListener(view -> {
+      btnSalir.setOnClickListener(view -> {
             mAuth.signOut();
             startActivity(new Intent(this, login.class));
 
         });
-*/
+
 
 
     }//End onCreate
