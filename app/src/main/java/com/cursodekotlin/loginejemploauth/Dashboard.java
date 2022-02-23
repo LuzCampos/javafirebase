@@ -25,23 +25,23 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
 
-        btnSalir = findViewById(R.id.exitBtn);
-        txtUser =  findViewById(R.id.textUserName);
+        //btnSalir = findViewById(R.id.exitBtn);
+        //txtUser =  findViewById(R.id.textUserName);
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser mUser = mAuth.getCurrentUser();
 
 
         if(mUser != null){
             String name = mUser.getDisplayName();
-            txtUser.setText(name);
+     //       txtUser.setText(name);
         }
 
-        btnSalir.setOnClickListener(view -> {
+      /* btnSalir.setOnClickListener(view -> {
             mAuth.signOut();
             startActivity(new Intent(this, login.class));
 
         });
-
+*/
 
 
     }//End onCreate
